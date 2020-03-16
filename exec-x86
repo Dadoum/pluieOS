@@ -1,0 +1,6 @@
+#!/bin/bash
+killall python
+{
+	sleep 0.1
+	/home/dadoum/PycharmProjects/pluieOS/venv/bin/python /home/dadoum/PycharmProjects/pluieOS/pluieLauncher.py & ./PluieOS\ Emulator
+} & &> ./exec.log
